@@ -1,0 +1,26 @@
+{
+  "name": "circlecitest",
+  "version": "1.0.0",
+  "description": "circleci tester",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anastasiucristian/circlecitest.git"
+  },
+  "keywords": [
+    "circleci",
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anastasiucristian/circlecitest/issues"
+  },
+  "homepage": "https://github.com/anastasiucristian/circlecitest#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
