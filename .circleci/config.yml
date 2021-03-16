@@ -2,7 +2,7 @@ version: 2.1 # using 2.1 provides access to orbs and other features
 
 jobs:
   build:
-    working_directory: ~/api
+    working_directory: ~/circlecitest/api
     docker:
       - image: 'circleci/node:14.16.0'
     steps:
