@@ -2,11 +2,10 @@ version: 2.1 # using 2.1 provides access to orbs and other features
 
 jobs:
   build:
+    working_directory: ~/api
     docker:
       - image: 'circleci/node:14.16.0'
     steps:
       - checkout
-      - run: cd api && pwd
       - run: npm install
       - run: npm test
-      - run: npm -v
