@@ -2,11 +2,12 @@ version: 2.1 # using 2.1 provides access to orbs and other features
 
 
 jobs:
+  build:    
     docker:
       - image: 'circleci/node:14.16.0'
     working_directory: ~/circlecitest/apptest
     steps:
       - checkout:
-        path: ~/circlecitest
+           path: ~/circlecitest
       - run: npm install
       - run: npm test
