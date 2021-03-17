@@ -6,6 +6,7 @@ jobs:
     docker:
       - image: 'circleci/node:14.16.0'
     steps:
-      - checkout
+      - checkout:
+        path: ~/circlecitest
       - run: npm install
       - run: npm test
