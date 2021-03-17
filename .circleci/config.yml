@@ -11,3 +11,5 @@ jobs:
            path: ~/circlecitest
       - run: npm install
       - run: npm test
+      
+      
